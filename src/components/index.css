@@ -16,7 +16,6 @@ body {
   justify-content: center;
   background-color: #f1f5f9;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .bold {
@@ -48,15 +47,10 @@ body {
 }
 
 /*End Global Rules*/
-.home .container{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(1, 300px);
+  grid-template-columns: repeat(2, 300px);
   gap: 20px;
   justify-content: center;
 }

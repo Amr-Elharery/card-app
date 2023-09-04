@@ -1,0 +1,51 @@
+.profile {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile .details .personal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile .percent{
+  font-size: 14px;
+}
+.profile .percent.completed{
+  color: #28aa74;
+}
+
+.profile .progress {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 10px;
+  border-radius: 8px;
+  background-color: #f0f2f7;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.profile .progress span {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(to left, #28aa74 50%, transparent 100%);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
